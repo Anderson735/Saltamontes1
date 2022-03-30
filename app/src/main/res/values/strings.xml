@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Promedio</string>
+    <string name="Titulo_Registro">Registro de estudiantes</string>
+    <string name="Titulo_Promedio">Calcular promedio de Notas</string>
+</resources>
