@@ -38,11 +38,11 @@ class Operations {
     fun kwonStudentStatus(student: Student): String {
         var state = "";
         if (student.average >= 3.6) {
-            state = "Gano el periodo";
+            state = "Gano";
         } else if (student.average >= 2.5) {
-            state = "Puede recuperar el periodo"
+            state = "En recuperación"
         } else{
-            state = "No puede recuperar el periodo"
+            state = "Perdio"
         }
         return state;
     }

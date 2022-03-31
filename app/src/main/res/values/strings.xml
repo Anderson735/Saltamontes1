@@ -2,4 +2,9 @@
     <string name="app_name">Promedio</string>
     <string name="Titulo_Registro">Registro de estudiantes</string>
     <string name="Titulo_Promedio">Calcular promedio de Notas</string>
+    <string name="Estadisticas1">Total de estudiantes:</string>
+    <string name="Estadisticas2">Estudiantes que perdieron:</string>
+    <string name="Estadisticas3">Estudiantes en recuperación:</string>
+    <string name="Estadisticas4">Información de estudiantes</string>
+    <string name="Estadisticas5">Estudiantes que ganaron:</string>
 </resources>

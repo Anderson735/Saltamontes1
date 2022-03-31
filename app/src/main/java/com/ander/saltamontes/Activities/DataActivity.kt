@@ -72,13 +72,13 @@ class DataActivity : AppCompatActivity() {
             course4!!.text = "${bundle.getString("course4")}";
             course5!!.text = "${bundle.getString("course5")}";
 
-            qualification1!!.text = "${bundle.getString("qualification1")}";
-            qualification2!!.text = "${bundle.getString("qualification2")}";
-            qualification3!!.text = "${bundle.getString("qualification3")}";
-            qualification4!!.text = "${bundle.getString("qualification4")}";
-            qualification5!!.text = "${bundle.getString("qualification5")}";
+            qualification1!!.text = "${bundle.getDouble("qualification1")}";
+            qualification2!!.text = "${bundle.getDouble("qualification2")}";
+            qualification3!!.text = "${bundle.getDouble("qualification3")}";
+            qualification4!!.text = "${bundle.getDouble("qualification4")}";
+            qualification5!!.text = "${bundle.getDouble("qualification5")}";
 
-            average!!.text = "${bundle.getString("average")}";
+            average!!.text = "${bundle.getDouble("average")}";
             state!!.text = "${bundle.getString("state")}";
         }
     }
